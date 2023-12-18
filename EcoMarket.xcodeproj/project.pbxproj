@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		844FA9AC2B2F6EFF00722DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9AB2B2F6EFF00722DD1 /* AppDelegate.swift */; };
 		844FA9AE2B2F6EFF00722DD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9AD2B2F6EFF00722DD1 /* SceneDelegate.swift */; };
-		844FA9B02B2F6EFF00722DD1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9AF2B2F6EFF00722DD1 /* MainTabBarViewController.swift */; };
+		844FA9B02B2F6EFF00722DD1 /* EMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9AF2B2F6EFF00722DD1 /* EMTabBarViewController.swift */; };
 		844FA9B52B2F6F0300722DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844FA9B42B2F6F0300722DD1 /* Assets.xcassets */; };
 		844FA9B82B2F6F0300722DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844FA9B62B2F6F0300722DD1 /* LaunchScreen.storyboard */; };
+		844FA9C32B30C4BE00722DD1 /* EMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C22B30C4BE00722DD1 /* EMMainViewController.swift */; };
+		844FA9C52B30C55800722DD1 /* EMShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C42B30C55800722DD1 /* EMShoppingCartViewController.swift */; };
+		844FA9C72B30C56C00722DD1 /* EMHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C62B30C56C00722DD1 /* EMHistoryViewController.swift */; };
+		844FA9C92B30C58300722DD1 /* EMInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		844FA9A82B2F6EFF00722DD1 /* EcoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844FA9AB2B2F6EFF00722DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844FA9AD2B2F6EFF00722DD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		844FA9AF2B2F6EFF00722DD1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		844FA9AF2B2F6EFF00722DD1 /* EMTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMTabBarViewController.swift; sourceTree = "<group>"; };
 		844FA9B42B2F6F0300722DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844FA9B72B2F6F0300722DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844FA9B92B2F6F0300722DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844FA9C22B30C4BE00722DD1 /* EMMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMMainViewController.swift; sourceTree = "<group>"; };
+		844FA9C42B30C55800722DD1 /* EMShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMShoppingCartViewController.swift; sourceTree = "<group>"; };
+		844FA9C62B30C56C00722DD1 /* EMHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMHistoryViewController.swift; sourceTree = "<group>"; };
+		844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		844FA9AA2B2F6EFF00722DD1 /* EcoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				844FA9C02B30C2B800722DD1 /* Models */,
+				844FA9BF2B30C2A600722DD1 /* Controllers */,
 				844FA9AB2B2F6EFF00722DD1 /* AppDelegate.swift */,
 				844FA9AD2B2F6EFF00722DD1 /* SceneDelegate.swift */,
-				844FA9AF2B2F6EFF00722DD1 /* MainTabBarViewController.swift */,
 				844FA9B42B2F6F0300722DD1 /* Assets.xcassets */,
 				844FA9B62B2F6F0300722DD1 /* LaunchScreen.storyboard */,
 				844FA9B92B2F6F0300722DD1 /* Info.plist */,
 			);
 			path = EcoMarket;
+			sourceTree = "<group>";
+		};
+		844FA9BF2B30C2A600722DD1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				844FA9C12B30C44F00722DD1 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		844FA9C02B30C2B800722DD1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		844FA9C12B30C44F00722DD1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				844FA9AF2B2F6EFF00722DD1 /* EMTabBarViewController.swift */,
+				844FA9C22B30C4BE00722DD1 /* EMMainViewController.swift */,
+				844FA9C42B30C55800722DD1 /* EMShoppingCartViewController.swift */,
+				844FA9C62B30C56C00722DD1 /* EMHistoryViewController.swift */,
+				844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844FA9B02B2F6EFF00722DD1 /* MainTabBarViewController.swift in Sources */,
+				844FA9C52B30C55800722DD1 /* EMShoppingCartViewController.swift in Sources */,
+				844FA9C72B30C56C00722DD1 /* EMHistoryViewController.swift in Sources */,
+				844FA9B02B2F6EFF00722DD1 /* EMTabBarViewController.swift in Sources */,
 				844FA9AC2B2F6EFF00722DD1 /* AppDelegate.swift in Sources */,
+				844FA9C92B30C58300722DD1 /* EMInfoViewController.swift in Sources */,
 				844FA9AE2B2F6EFF00722DD1 /* SceneDelegate.swift in Sources */,
+				844FA9C32B30C4BE00722DD1 /* EMMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
