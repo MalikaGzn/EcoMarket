@@ -62,12 +62,9 @@
 		844FA9AA2B2F6EFF00722DD1 /* EcoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				844FA9CA2B31A36E00722DD1 /* Resources */,
 				844FA9C02B30C2B800722DD1 /* Models */,
 				844FA9BF2B30C2A600722DD1 /* Controllers */,
-				844FA9AB2B2F6EFF00722DD1 /* AppDelegate.swift */,
-				844FA9AD2B2F6EFF00722DD1 /* SceneDelegate.swift */,
-				844FA9B42B2F6F0300722DD1 /* Assets.xcassets */,
-				844FA9B62B2F6F0300722DD1 /* LaunchScreen.storyboard */,
 				844FA9B92B2F6F0300722DD1 /* Info.plist */,
 			);
 			path = EcoMarket;
@@ -98,6 +95,17 @@
 				844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		844FA9CA2B31A36E00722DD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				844FA9AB2B2F6EFF00722DD1 /* AppDelegate.swift */,
+				844FA9AD2B2F6EFF00722DD1 /* SceneDelegate.swift */,
+				844FA9B42B2F6F0300722DD1 /* Assets.xcassets */,
+				844FA9B62B2F6F0300722DD1 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
