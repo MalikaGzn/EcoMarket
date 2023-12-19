@@ -16,6 +16,7 @@
 		844FA9C52B30C55800722DD1 /* EMShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C42B30C55800722DD1 /* EMShoppingCartViewController.swift */; };
 		844FA9C72B30C56C00722DD1 /* EMHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C62B30C56C00722DD1 /* EMHistoryViewController.swift */; };
 		844FA9C92B30C58300722DD1 /* EMInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */; };
+		844FA9CC2B3215CC00722DD1 /* EMMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FA9CB2B3215CC00722DD1 /* EMMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		844FA9C42B30C55800722DD1 /* EMShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMShoppingCartViewController.swift; sourceTree = "<group>"; };
 		844FA9C62B30C56C00722DD1 /* EMHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMHistoryViewController.swift; sourceTree = "<group>"; };
 		844FA9C82B30C58300722DD1 /* EMInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMInfoViewController.swift; sourceTree = "<group>"; };
+		844FA9CB2B3215CC00722DD1 /* EMMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		844FA9C02B30C2B800722DD1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				844FA9CB2B3215CC00722DD1 /* EMMain.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				844FA9AC2B2F6EFF00722DD1 /* AppDelegate.swift in Sources */,
 				844FA9C92B30C58300722DD1 /* EMInfoViewController.swift in Sources */,
 				844FA9AE2B2F6EFF00722DD1 /* SceneDelegate.swift in Sources */,
+				844FA9CC2B3215CC00722DD1 /* EMMain.swift in Sources */,
 				844FA9C32B30C4BE00722DD1 /* EMMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
