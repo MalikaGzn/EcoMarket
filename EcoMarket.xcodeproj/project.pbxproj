@@ -64,6 +64,7 @@
 		844FA9AA2B2F6EFF00722DD1 /* EcoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				844FA9CD2B3366DD00722DD1 /* ViewModels */,
 				844FA9CA2B31A36E00722DD1 /* Resources */,
 				844FA9C02B30C2B800722DD1 /* Models */,
 				844FA9BF2B30C2A600722DD1 /* Controllers */,
@@ -109,6 +110,13 @@
 				844FA9B62B2F6F0300722DD1 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		844FA9CD2B3366DD00722DD1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

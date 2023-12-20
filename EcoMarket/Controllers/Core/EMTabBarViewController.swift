@@ -35,7 +35,7 @@ final class EMTabBarViewController: UITabBarController {
                                        image: UIImage(systemName: "house") ,
                                        tag: 1)
         nav2.tabBarItem = UITabBarItem(title: "Shopping Cart",
-                                       image: UIImage(systemName: "basket") ,
+                                       image: UIImage(systemName: "bag") ,
                                        tag: 2)
         nav3.tabBarItem = UITabBarItem(title: "History",
                                        image: UIImage(systemName: "clock") ,
